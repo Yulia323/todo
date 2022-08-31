@@ -1,0 +1,69 @@
+.todo {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .todo-content {
+    width: 100%;
+  }
+
+  &-header {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+
+    .btn-add {
+      width: 200px;
+      margin: 30px auto;
+    }
+
+    &-title {
+      font-size: 25px;
+    }
+
+    &-content {
+      font-size: 20px;
+    }
+  }
+
+  .todo-content-create {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-bottom: 50px;
+
+    &-title {
+      font-size: 22px;
+      font-weight: 600;
+      padding: 10px 0;
+    }
+
+    &-content {
+      font-size: 18px;
+    }
+  }
+
+  .todo-content-edit {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    margin-bottom: 30px;
+  }
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
